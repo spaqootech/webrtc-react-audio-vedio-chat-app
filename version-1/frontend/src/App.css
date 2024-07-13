@@ -1,0 +1,242 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* src/WebRTC.css */
+.webrtc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.call-button, .end-call-button {
+  margin: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.local-audio, .remote-audio {
+  display: none;
+}
+
+
+/* src/WebRTC.css */
+.webrtc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.call-button, .end-call-button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.media-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.local-media, .remote-media {
+  width: 45%;
+  margin: 0 2.5%;
+}
+
+.hidden {
+  display: none;
+}
+
+.chat-container {
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.message-form {
+  display: flex;
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.send-button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+/* src/WebRTC.css */
+.webrtc-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.call-button, .end-call-button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.media-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.local-media, .remote-media {
+  width: 45%;
+  margin: 0 2.5%;
+}
+
+.hidden {
+  display: none;
+}
+
+.chat-container {
+  width: 80%;
+  max-width: 600px;
+  margin-top: 20px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.messages {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+}
+
+.message {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+}
+
+.message-form {
+  display: flex;
+}
+
+.message-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.send-button {
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+/* src/WebRTC.css */
+.media-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.local-media-preview {
+  width: 200px;  /* Adjust size as necessary */
+  border: 2px solid #007bff;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.remote-media {
+  width: 300px;  /* Adjust size as necessary */
+  margin: 10px;
+  border-radius: 8px;
+}
